@@ -18,3 +18,9 @@ An unstyled, unopinionated dropdown component for React. It gives you functional
   </DropdownContent>
 </DropdownMenu>
 ```
+
+# Roadmap
+- [ ] Publish a clickable demo
+- [ ] Add tests
+- [ ] Add contribution guidelines
+- [ ] Add linting
