@@ -1,2 +1,2 @@
 # react-unstyled-dropdown
-An unstyled, opinionated dropdown component for React.
+An unstyled, unopinionated dropdown component for React.
