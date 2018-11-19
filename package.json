@@ -1,0 +1,38 @@
+{
+  "name": "react-unstyled-dropdown",
+  "version": "0.0.4",
+  "description": "A unstyled, unopinionated dropdown component for React.",
+  "main": "lib/main.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">= 16.3.x",
+    "styled-jsx": ">= 2.x.x"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "rollup -c"
+  },
+  "author": {
+    "name": "Anton Kjörck Lindén",
+    "email": "anton.kjorck.linden@marknadsinformation.se"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-multi-entry": "^2.0.2",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "styled-jsx": "^3.1.2"
+  }
+}
