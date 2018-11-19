@@ -1,5 +1,5 @@
 # react-unstyled-dropdown
-An unstyled, unopinionated dropdown component for React. It gives you functionality to open/close a dropdonw menu on click. Nothing more, nothing less. You write the styling you prefer.
+An unstyled, unopinionated dropdown component for React. It gives you functionality to open/close a dropdown menu on click. Nothing more, nothing less. You write the styling you prefer.
 
 ```
 <DropdownMenu>

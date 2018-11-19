@@ -2,6 +2,7 @@
   "name": "react-unstyled-dropdown",
   "version": "0.0.4",
   "description": "A unstyled, unopinionated dropdown component for React.",
+  "repository": "https://github.com/AntonKL/react-unstyled-dropdown",
   "main": "lib/main.js",
   "license": "MIT",
   "peerDependencies": {
