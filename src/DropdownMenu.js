@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
 class DropdownMenu extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class DropdownMenu extends React.Component {
   }
 
   render() {
-    const { children } = this.props;
+    const { children, className } = this.props;
     const { isOpen } = this.state;
 
     const childrenWithProps = React.Children.map(children, child =>
@@ -44,11 +45,19 @@ class DropdownMenu extends React.Component {
     );
 
     return (
-      <div className="dropdown">
+      <div className={className}>
         {childrenWithProps}
       </div>
     );
   }
+
+  static propTypes = {
+    className: PropTypes.string
+  };
+  
+  static defaultProps = {
+    className: 'dropdown'
+  };
 }
 
 export default DropdownMenu;

@@ -1,16 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class DropdownContent extends Component {
-  render () {
-    if (!this.props.isOpen) {
-      return null;
-    }
-    return (
-      <div className="dropdown__content">
-        {this.props.children}
-      </div>
-    );
+const DropdownContent = (props) => {
+  const { isOpen, children, className } = props;
+  if (!isOpen) {
+    return null;
   }
+  return (
+    <div className={className}>
+      {children}
+    </div>
+  );
 }
+
+DropdownContent.propTypes = {
+  isOpen: PropTypes.bool,
+  className: PropTypes.string
+};
+
+DropdownContent.defaultProps = {
+  className: 'dropdown__content'
+};
 
 export default DropdownContent;
