@@ -17,10 +17,48 @@ An unstyled, unopinionated dropdown component for React. It gives you functional
     </ul>
   </DropdownContent>
 </DropdownMenu>
+
+# Demo
+[![Edit zry44nlxym](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zry44nlxym)
+
+```
+# PropTypes
+
+```
+DropdownContent.propTypes = {
+  isOpen: PropTypes.bool,
+  className: PropTypes.string
+};
+DropdownContent.defaultProps = {
+  className: 'dropdown__content'
+};
+```
+
+```
+DropdownTrigger.propTypes = {
+  toggleMenu: PropTypes.func,
+  className: PropTypes.string
+};
+
+DropdownTrigger.defaultProps = {
+  className: 'dropdown__trigger'
+};
+```
+
+```
+DropdownMenu.propTypes = {
+  className: PropTypes.string
+};
+
+DropdownMenu.defaultProps = {
+  className: 'dropdown'
+};
 ```
 
 # Roadmap
-- [ ] Publish a clickable demo
+- [x] Add configurable className
+- [x] Add proptypes
+- [x] Publish a clickable demo
 - [ ] Add tests
 - [ ] Add contribution guidelines
 - [ ] Add linting
