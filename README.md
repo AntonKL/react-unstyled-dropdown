@@ -18,10 +18,10 @@ An unstyled, unopinionated dropdown component for React. It gives you functional
   </DropdownContent>
 </DropdownMenu>
 
+```
 # Demo
 [![Edit zry44nlxym](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zry44nlxym)
 
-```
 # PropTypes
 
 ```
